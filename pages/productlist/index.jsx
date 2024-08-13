@@ -28,9 +28,7 @@ const ProductsList = () => {
 
     const handleRemoveClick = (id) => {
         Swetalert(id, (id) => {
-            // Replace with your delete logic here
-            // For example:
-            mutate(id); // Call your delete function here
+            mutate(id);
         });
     };
 
@@ -89,7 +87,6 @@ const ProductsList = () => {
                                             </td>
                                             <td className="px-6 py-4 whitespace-nowrap ">
                                                 <Link
-                                                    className="w-auto h-auto"
                                                     href={`/details/${item._id}`}
                                                 >
                                                     <Image
@@ -130,7 +127,7 @@ const ProductsList = () => {
                                                     <Link
                                                         href={`/update/${item._id}`}
                                                     >
-                                                        <button className="bg-green-600 hover:bg-green-700 text-white font-bold px-4 py-2 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 transition">
+                                                        <button className="bg-green-600 hover:bg-green-700 text-white font-bold px-3 py-1 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-green-500 transition">
                                                             Update
                                                         </button>
                                                     </Link>

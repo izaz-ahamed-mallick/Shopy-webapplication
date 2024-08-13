@@ -45,12 +45,13 @@ const Header = () => {
                             src={logo}
                             alt="SHOPY Logo"
                             className=" object-cover"
+                            style={{ width: "auto", height: "auto" }}
                         />
                     </Link>
 
                     <Link
                         href="/"
-                        className=" text-white text-md md:text-2xl  font-semibold tracking-wide ml-2 md:ml-3"
+                        className=" text-white text-md md:text-2xl  font-bold tracking-wide ml-2 md:ml-3"
                     >
                         SHOPY
                     </Link>
@@ -72,7 +73,7 @@ const Header = () => {
                                     priority
                                     width={40}
                                     height={40}
-                                    className="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-white"
+                                    className="w-10 h-10 md:w-12 md:h-12 object-cover rounded-full border-2 border-white"
                                     src={profile_pic(image)}
                                     alt={`${firstname}'s profile`}
                                 />

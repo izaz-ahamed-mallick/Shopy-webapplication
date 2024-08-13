@@ -19,16 +19,10 @@ const Footer = () => {
                     <span className="text-white text-lg font-bold">SHOPY</span>
                 </div>
                 <div className="flex space-x-6 text-white text-sm md:text-base">
-                    <Link
-                        href="/privacy-policy"
-                        className="hover:text-gray-300 transition"
-                    >
+                    <Link href="/" className="hover:text-gray-300 transition">
                         Privacy Policy
                     </Link>
-                    <Link
-                        href="/terms-of-service"
-                        className="hover:text-gray-300 transition"
-                    >
+                    <Link href="/" className="hover:text-gray-300 transition">
                         Terms of Service
                     </Link>
                 </div>

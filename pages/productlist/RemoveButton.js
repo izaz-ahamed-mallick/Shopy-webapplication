@@ -5,7 +5,7 @@ const RemoveButton = ({ handleRemoveClick, id }) => {
         <div>
             <button
                 onClick={() => handleRemoveClick(id)}
-                className="bg-red-600 w-[110px] px-3 font-semibold text-white rounded-md py-1 hover:bg-red-700"
+                className="bg-red-600 w-[110px] font-bold px-3  text-white rounded-md py-1 hover:bg-red-700"
             >
                 Remove
             </button>
