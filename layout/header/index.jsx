@@ -35,23 +35,24 @@ const Header = () => {
 
     return (
         <header className="bg-indigo-700 shadow-md">
-            <nav className="container mx-auto flex items-center h-[80px] justify-between  lg:px-8">
+            <nav className="container mx-auto flex items-center h-[80px] justify-between px-8 lg:px-8">
                 <div className="flex items-center ">
                     <Link href="/">
-                        {/* Replace the src with the path to your logo */}
                         <Image
                             priority
-                            width={100}
-                            height={100}
+                            width={60}
+                            height={60}
                             src={logo}
                             alt="SHOPY Logo"
                             className=" object-cover"
                         />
                     </Link>
-                    <Link href="/">
-                        <span className="text-white text-2xl md:text-3xl font-bold tracking-wide ml-2 md:ml-3">
-                            SHOPY
-                        </span>
+
+                    <Link
+                        href="/"
+                        className=" text-white text-md md:text-2xl font-bold tracking-wide ml-2 md:ml-3"
+                    >
+                        SHOPY
                     </Link>
                 </div>
                 <div className="flex items-center space-x-4 md:space-x-6 relative">
