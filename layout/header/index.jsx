@@ -50,7 +50,7 @@ const Header = () => {
 
                     <Link
                         href="/"
-                        className=" text-white text-md md:text-2xl font-bold tracking-wide ml-2 md:ml-3"
+                        className=" text-white text-md md:text-2xl  font-semibold tracking-wide ml-2 md:ml-3"
                     >
                         SHOPY
                     </Link>
